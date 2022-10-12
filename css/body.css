@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'made_tommymedium';
+    background-color: rgb(213, 220, 224);
+    font-size: 1.2rem;
+}
+

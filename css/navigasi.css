@@ -1,0 +1,63 @@
+nav {
+    width: 100vw;
+    background-color: rgb(251, 251, 251);
+}
+
+.kotakNav {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(251, 251, 251);
+}
+
+.navigasi {
+    width: 50%;
+}
+
+.navigator {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navigator li {
+    margin: 0 50px 0 0;
+}
+
+.navigator li a {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.navigator li:nth-child(1) a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.navigator li:nth-child(2) a {
+    font-family: 'made_tommybold';
+    font-weight: 900;
+}
+
+.logo {
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact div a {
+    color: white;
+    background-color: #333;
+    padding: 8px 18px;
+    border-radius: 8px;
+}
